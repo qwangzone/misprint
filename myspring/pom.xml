@@ -12,6 +12,12 @@
     </properties>
 
     <dependencies>
+        <!--Bean的初始化与销毁依赖 JSR250-->
+        <dependency>
+            <groupId>javax.annotation</groupId>
+            <artifactId>jsr250-api</artifactId>
+            <version>1.0</version>
+        </dependency>
         <!--spring EL-spring支持-->
         <dependency>
             <groupId>commons-io</groupId>
