@@ -9,4 +9,10 @@ public class DemoPublisher {
     @Autowired
     ApplicationContext applicationContext;
 
+
+
+    public void publish(String msg){
+        applicationContext.publishEvent(new DemoEvent(this,msg));
+    }
+
 }
