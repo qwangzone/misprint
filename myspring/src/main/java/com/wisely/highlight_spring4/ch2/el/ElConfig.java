@@ -54,13 +54,13 @@ public class ElConfig {
     public void outputResource(){
         try{
 //            System.out.println(randomNumber);
-//            System.out.println(testFile);
-////            System.out.println(IOUtils.toString(testFile.getInputStream()));
+            System.out.println(testFile);
+            System.out.println(IOUtils.toString(testFile.getInputStream()));
             System.out.println(another);
 //            System.out.println(testUrl);
 //            System.out.println(IOUtils.toString(testUrl.getInputStream()));
-            System.out.println(bookName);
-            System.out.println(environment.getProperty("book.author"));
+//            System.out.println(bookName);
+//            System.out.println(environment.getProperty("book.author"));
         }catch (Exception e){
             e.printStackTrace();
         }
